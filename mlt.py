@@ -38,7 +38,7 @@ def lev2():
       print("faux")
       print(f"la vraie réponse était: {str(res)}")
   if scr==10:
-    print("Bravo tu as fait u score parfait : ", scr, "/10")
+    print("Bravo tu as fait un score parfait : ", scr, "/10")
   else:
     print("Voilà ton score : ", scr, "/10")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +60,7 @@ def lev3():
       print("faux")
       print(f"la vraie réponse était: {str(res)}")
   if scr==10:
-    print("Bravo tu as fait u score parfait : ", scr, "/10")
+    print("Bravo tu as fait un score parfait : ", scr, "/10")
   else:
     print("Voilà ton score : ", scr, "/10")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
