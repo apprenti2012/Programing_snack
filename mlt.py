@@ -21,7 +21,7 @@ def lev1():
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def lev2():
   scr=0
-  for i in range(20)
+  for i in range(20):
     m1=random.randint(0,11)
     m2=random.randint(0,10)
     print(str(m1), "*", str(m2))
