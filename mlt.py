@@ -4,7 +4,7 @@ def lev1():
     for i in range(10):
         m1=random.randint(0,10)
         m2=random.randint(0,10)
-        print(f"{m1} * {m2}")
+        print(str(m1), "*", str(m2))
         rep=int(input("="))
         res=m1*m2
         if rep==res:
@@ -12,7 +12,7 @@ def lev1():
           scr+=1
         else:
           print("faux")
-          print(f"la vraie réponse était: {str(res)}")
+          print("la vraie réponse était : ",str(res))
     if scr==10:
       print("Bravo tu as fait un score parfait : ", scr, "/10")
     else:
@@ -24,7 +24,7 @@ def lev2():
   for i in range(20)
     m1=random.randint(0,11)
     m2=random.randint(0,10)
-    print(f"{m1} * {m2}")
+    print(str(m1), "*", str(m2))
     rep=int(input("= "))
     res=m1*m2
     if rep==res:
@@ -32,7 +32,7 @@ def lev2():
       scr+=1
     else:
       print("faux")
-      print(f"la vraie réponse était: {str(res)}")
+      print("la vraie réponse était : ",str(res))
   if scr==20:
     print("Bravo tu as fait un score parfait : ", scr, "/10")
   else:
@@ -44,7 +44,7 @@ def lev3():
   for i in range(30):
     m1=random.randint(6,12)
     m2=random.randint(6,12)
-    print(f"{m1} * {m2}")
+    print(str(m1), "*", str(m2))
     rep=int(input("= "))
     res=m1*m2
     if rep==res:
@@ -52,7 +52,7 @@ def lev3():
       scr+=1
     else:
       print("faux")
-      print(f"la vraie réponse était: {str(res)}")
+      print("la vraie réponse était : ",str(res))
   if scr==30:
     print("Bravo tu as fait un score parfait : ", scr, "/10")
   else:
