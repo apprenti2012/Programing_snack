@@ -59,7 +59,7 @@ def lev3():
     print("Voilà ton score : ", scr, "/30")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-level=input("choisi ton niveau : 1,2 ou 3, (Tape 1, 2 ou 3): ")
+level=input("choisis ton niveau : 1,2 ou 3, (Tape 1, 2 ou 3): ")
 if level=="1":
   lev1()
 elif level=="2":
