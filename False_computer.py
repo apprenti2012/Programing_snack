@@ -1,3 +1,5 @@
+#It's a false computer for fools beginners :)
+
 import random, time
 print("#create_new_computer")
 time.sleep(5)
