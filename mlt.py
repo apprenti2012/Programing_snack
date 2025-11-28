@@ -1,3 +1,4 @@
+# It is indeed a code that makes you learn multiplication tables, indeed (uping little finger)
 import random
 def lev1():
     scr=0
