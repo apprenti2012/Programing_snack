@@ -8,4 +8,18 @@ def two_version():
  else:
 	 print(f"{name1} et vous ({name2}) allez vivre heureux pour toujours 😊")
 def random_version():
-	woman_list = 
+	woman_list = ["Anna","Gulia","Margaux","Tess","Naya", "Elena", "Mélodie","Personne", "Juliette","Lise", "Yuna",          "Mélina", "Lyna"]
+	man_list = ["Ethan", "Mathis", "Louis", "Tom", "Lorenzo","Personne", "Amaury", "Yannis", "Lucas", "Gabriel", "Florent", "Antonin", "Jules"]
+	sexe = input("Indique ton sexe, H ou F : ")
+	if sexe=="H":
+		 print(f"Tu irais bien avec {random.choice(woman_list)} ")
+	elif sexe=="F" :
+		 print(f"Tu irais bien avec {random.choice(man_list)} ")
+while True:
+	n = input(" quel version voulez vous choisir : 1 ou 2")
+	if n=="1" :
+	    two_version()
+	elif n=="2" :
+		random_version()
+	else:
+	    print("Tu n'as pas tapé 1 ou 2")
